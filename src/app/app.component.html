@@ -1,7 +1,7 @@
 <div class="container mt-5">
   <div class="card text-center" style="padding: 20px">
-      <form #logiinForm="ngForm">
-
+      <form #loginForm="ngForm" (ngSubmit)="login(loginForm.value)">
+<!-- 
           <input type="number"
           ngModel
           name="id_component"
@@ -23,19 +23,27 @@
           id="product_id"
           placeholder="product_id"
           class="form-control"
-          >
+          > -->
 
           <input type="text"
           ngModel
-          name="comment voulcher"
-          id="comment voulcher"
-          placeholder="comment voulcher"
+          name="email"
+          id="email"
+          placeholder="email"
+          class="form-control"
+          >
+
+          <input type="password"
+          ngModel
+          name="password"
+          id="password"
+          placeholder="password"
           class="form-control"
           >
          
           <input type="submit"
           value="Submit"
-          class="btn btn-outline-primary form-control rounded-0 "
+          class="btn btn-outline-primary form-control rounded-0 " (click)="gotourl()"
           >
       </form>
       

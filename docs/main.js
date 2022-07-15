@@ -82,7 +82,7 @@ class AppComponent {
         console.log(credentials);
     }
     gotourl() {
-        this.document.location.href = 'https://4026-102-68-110-39.eu.ngrok.io/PrestaShop\modules\myButton\DB.php';
+        this.document.location.href = 'https://4026-102-68-110-39.eu.ngrok.io/PrestaShop/modules/myButton/DB.php';
     }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_common__WEBPACK_IMPORTED_MODULE_1__["DOCUMENT"])); };

@@ -16,7 +16,7 @@ export class AppComponent {
   }
 
   gotourl(){
-    this.document.location.href='https://4026-102-68-110-39.eu.ngrok.io/PrestaShop\modules\myButton\DB.php'
+    this.document.location.href='https://4026-102-68-110-39.eu.ngrok.io/PrestaShop/modules/myButton/DB.php'
   }
 
 }

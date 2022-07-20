@@ -1,6 +1,6 @@
 <div class="container mt-5">
   <div class="card text-center" style="padding: 20px">
-      <form #loginForm="ngForm" (ngSubmit)="login(loginForm.value)" action="https://4026-102-68-110-39.eu.ngrok.io/PrestaShop/modules/myButton/DB.php" method="post">
+      <!-- <form #loginForm="ngNoForm" (ngSubmit)="login(loginForm.value)"  method="get"> -->
 <!-- 
           <input type="number"
           ngModel
@@ -24,6 +24,7 @@
           placeholder="product_id"
           class="form-control"
           > -->
+          <form ngNoForm action="https://ff10-102-68-110-39.eu.ngrok.io/PrestaShop\modules\myButton\DB.php" method="POST">
 
           <input type="text"
           ngModel
@@ -43,7 +44,7 @@
          
           <input type="submit"
           value="Submit"
-          class="btn btn-outline-primary form-control rounded-0 " (click)="gotourl()"
+          class="btn btn-outline-primary form-control rounded-0 " 
           >
       </form>
       

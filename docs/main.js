@@ -86,7 +86,7 @@ class AppComponent {
     }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_common__WEBPACK_IMPORTED_MODULE_1__["DOCUMENT"])); };
-AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 6, vars: 0, consts: [[1, "container", "mt-5"], [1, "card", "text-center", 2, "padding", "20px"], ["ngNoForm", "", "action", "https://ff10-102-68-110-39.eu.ngrok.io/PrestaShop\\modules\\myButton\\DB.php", "method", "GET"], ["type", "text", "ngModel", "", "name", "email", "id", "email", "placeholder", "email", 1, "form-control"], ["type", "password", "ngModel", "", "name", "password", "id", "password", "placeholder", "password", 1, "form-control"], ["type", "submit", "value", "submit", "name", "submit", 1, "btn", "btn-outline-primary", "form-control", "rounded-0"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
+AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 6, vars: 0, consts: [[1, "container", "mt-5"], [1, "card", "text-center", 2, "padding", "20px"], ["ngNoForm", "", "action", "https://03a4-102-68-110-39.eu.ngrok.io/PrestaShop\\modules\\myButton\\DB.php", "method", "GET"], ["type", "text", "ngModel", "", "name", "email", "id", "email", "placeholder", "email", 1, "form-control"], ["type", "password", "ngModel", "", "name", "password", "id", "password", "placeholder", "password", 1, "form-control"], ["type", "submit", "value", "submit", "name", "submit", 1, "btn", "btn-outline-primary", "form-control", "rounded-0"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "form", 2);
@@ -232,7 +232,7 @@ _angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__["platformBrowser"]().boot
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\users\ndf\OneDrive\Desktop\ndf work\new-work\davidojonugwamoses.github.io\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\users\NDF\OneDrive\Desktop\ndf work\new-work\davidojonugwamoses.github.io\src\main.ts */"./src/main.ts");
 
 
 /***/ })
